@@ -41,7 +41,7 @@ if(isset($_POST['register'])){
     $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
     // menyiapkan query
     $sql = "INSERT INTO users (`name`, username, email, `password`, user_type, `status`, photo) 
-            VALUES (:name, :username, :email, :password, 'user', 'disable', 'defaultuser.png')";
+            VALUES (:name, :username, :email, :password, 'user', 'active', 'defaultuser.png')";
     $stmt = $db->prepare($sql);
     $_SESSION['success']  = "New user successfully created!!";
     
