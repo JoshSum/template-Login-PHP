@@ -120,7 +120,7 @@ if(isset($_POST['register'])){
                             	<p>
 	                            	You must login to access this program<br> 
 	                            	Have an account? Login <a href="login.php"><strong><b>here</b></strong></a> or <br>
-                                    Back to <a href="index.html"><strong><b>Home</b></strong></a>
+                                    Back to <a href="index.php"><strong><b>Home</b></strong></a>
                             	</p>
                             </div>
                         </div>

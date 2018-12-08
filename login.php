@@ -115,7 +115,7 @@ if (isset($_POST['login'])) {
                             <div class="description">
                                 <p>
                                     You must login to access this program<br>
-                                    Register <a href="register.php"><strong><b>here</b></strong></a>, if you do not have an account yet or <br> Back to <a href="index.html"><strong><b>Home</b></strong></a>
+                                    Register <a href="register.php"><strong><b>here</b></strong></a>, if you do not have an account yet or <br> Back to <a href="index.php"><strong><b>Home</b></strong></a>
                                 </p>
                             </div>
                         </div>
